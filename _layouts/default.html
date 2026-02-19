@@ -43,7 +43,28 @@
 </script>
             <main class="bloco-conteudo">
     {{ content }}
+<main class="bloco-conteudo">
+    
+    {% if page.summary %}
+    <div class="ficha-tecnica" style="background: #fdfdfd; border: 1px solid #eee; padding: 25px; margin-bottom: 30px; border-radius: 8px;">
+        <h1 style="color: #1A365D; margin-top: 0;">{{ page.title }}</h1>
+        
+        <p><strong>Resumo:</strong> {{ page.summary }}</p>
+        
+        <p><strong>Tags:</strong> 
+            {% for tag in page.tags %}
+                <span style="background: #eef2f7; padding: 3px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #4A5568;">
+                    {{ tag }}
+                </span>
+            {% endfor %}
+        </p>
+    </div>
+    {% endif %}
 
+    <div class="texto-adicional">
+        {{ content }}
+    </div>
+</main>
         </div>
     </main>
 
