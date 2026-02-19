@@ -62,3 +62,36 @@ header, .sidebar, #sidebar { display: none !important; }
 section {
     width: 100% !important;
 }
+
+/* ESTILO DA BUSCA */
+.busca-alala {
+    margin: 20px 0;
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+#results-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#results-container li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#results-container li a {
+    color: #1A365D; /* O seu azul marinho */
+    font-weight: bold;
+    text-decoration: none;
+}
