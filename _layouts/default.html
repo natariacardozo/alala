@@ -8,65 +8,75 @@
 </head>
 <body class="site-alala">
 
-    <div class="topo-banner">
+    <header class="topo-banner">
         <img src="{{ site.baseurl }}/logo.png" alt="ALALA">
-    </div>
+    </header>
 
     <nav class="barra-navegacao">
         <ul>
             <li><a href="{{ '/' | relative_url }}">Início</a></li>
             <li><a href="{{ '/sobre.html' | relative_url }}">Sobre o Projeto</a></li>
             <li><a href="{{ '/mapeamento.html' | relative_url }}">Mapeamento</a></li>
-             <li><a href="{{ '/contato.html' | relative_url }}">Contato</a></li>
+            <li><a href="{{ '/contato.html' | relative_url }}">Contato</a></li>
         </ul>
     </nav>
 
     <main class="bloco-conteudo">
         <div class="inner-texto">
+            
             <div class="busca-alala">
-  <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
-  <ul id="results-container"></ul>
-</div>
+                <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
+                <ul id="results-container"></ul>
+            </div>
 
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+            {% if page.summary and page.url != "/" and page.url != "/index.html" %}
+            <div class="ficha-tecnica" style="background: #fdfdfd; border: 1px solid #eee; padding: 25px; margin-bottom: 30px; border-radius: 8px;">
+                <h1 style="color: #1A365D; margin-top: 0;">{{ page.title }}</h1>
+                <p><strong>Resumo:</strong> {{ page.summary }}</p>
+                <p><strong>Tags:</strong> 
+                    {% for tag in page.tags %}
+                        <span style="background: #eef2f7; padding: 3px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #4A5568;">
+                            {{ tag }}
+                        </span>
+                    {% endfor %}
+                </p>
+            </div>
+            {% endif %}
 
-<script>
-  window.simpleJekyllSearch = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
-    noResultsText: 'Nenhum resultado encontrado.',
-    limit: 10,
-    fuzzy: false
-  })
-</script>
-            <main class="bloco-conteudo">
-    {{ content }}
-<main class="bloco-conteudo">
-    
-    {% if page.summary %}
-    <div class="ficha-tecnica" style="background: #fdfdfd; border: 1px solid #eee; padding: 25px; margin-bottom: 30px; border-radius: 8px;">
-        <h1 style="color: #1A365D; margin-top: 0;">{{ page.title }}</h1>
-        
-        <p><strong>Resumo:</strong> {{ page.summary }}</p>
-        
-        <p><strong>Tags:</strong> 
-            {% for tag in page.tags %}
-                <span style="background: #eef2f7; padding: 3px 8px; border-radius: 4px; font-size: 0.85em; margin-right: 5px; color: #4A5568;">
-                    {{ tag }}
-                </span>
-            {% endfor %}
-        </p>
-    </div>
-    {% endif %}
+            <div class="conteudo-real">
+                {{ content }}
+            </div>
 
-    <div class="texto-adicional">
-        {{ content }}
-    </div>
-</main>
+            {% if page.link_externo %}
+            <div class="rodape-ficha" style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #1A365D;">
+                <p>Este é um registro do acervo <strong>ALALA (Acervo Latino-Americano de Avaliação em Línguas)</strong>.</p>
+                <p>Para acessar o documento original, utilize o link abaixo:</p>
+                <p>👉 [<strong><a href="{{ page.link_externo }}" target="_blank">clique aqui</a></strong>]</p>
+                
+                <hr>
+                <div class="aviso-erro" style="font-size: 0.9em; color: #666;">
+                    <h4>⚠️ Encontrou algum problema?</h4>
+                    <p>Se encontrar um link quebrado ou informações desatualizadas, fale conosco: 
+                    <strong><a href="mailto:nataliacardozo.unb@aqui.com">nataliacardozo.unb@aqui.com</a></strong> ou via <a href="{{ '/contato.html' | relative_url }}">Contato</a>.</p>
+                </div>
+            </div>
+            {% endif %}
+
         </div>
     </main>
+
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
+        noResultsText: 'Nenhum resultado encontrado.',
+        limit: 10,
+        fuzzy: false
+      })
+    </script>
 
 </body>
 </html>
