@@ -1,24 +1,40 @@
 ---
 layout: default
+title: Home
 ---
-TESTE DE MENU
 
-## 🎯 O que é este projeto?
+> "A avaliação não é apenas um instrumento técnico; é uma prática social que reflete identidades e territórios."
 
-Este é um repositório de acesso aberto que armazena a produção acadêmica (artigos, teses, dissertações) sobre **Avaliação de Línguas Adicionais na América Latina e nos países falantes de Língua Portuguesa**.
-Este projeto é o produto derivado da dissertação de Nátalia Cardozo, defendida no Programa de Pós-Graduação em Línguistica Aplicada da Universidade de Brasília.
+---
 
-## 📂 Como usar o acervo?
+### 🌎 Navegação por Eixos
+Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 
-* **[Navegue pela base de dados (EM BREVE)]()**
-* **[Leia a dissertação completa (EM BREVE)]()**
+| **Por Território** | **Por Idioma** | **Por Categoria** |
+| :--- | :--- | :--- |
+| [Mapeamento Chile]({{ '/tag/chile' | relative_url }}) | [Língua Espanhola]({{ '/tag/espanhol' | relative_url }}) | [Instrumentos DEA]({{ '/tag/dea' | relative_url }}) |
+| [Mapeamento Colômbia]({{ '/tag/colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag/portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag/lal' | relative_url }}) |
+| [Mapeamento Brasil]({{ '/tag/brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag/ingles' | relative_url }}) | [Acessibilidade]({{ '/tag/acessibilidade' | relative_url }}) |
 
-## ⚖️ Como citar
+---
 
-Se você usar estes dados, por favor, cite os autores do texto escolhido e também o repositório:
+### 🆕 Adições Recentes ao Acervo
+*Confira os últimos registros mapeados na nossa base de dados:*
 
-Cardozo, Nátalia. (2026). *ALALA: Acervo Latino-Americano de Avaliação em Línguas*. Repositório GitHub. Disponível em: https://github.com/natariacardozo/alala
+<div class="ultimos-posts">
+  {% for post in site.posts limit:5 %}
+    <article style="margin-bottom: 20px;">
+      <h4 style="margin-bottom: 5px;">
+        <a href="{{ post.url | relative_url }}" style="color: #1A365D; text-decoration: none;">
+          {{ post.title }}
+        </a>
+      </h4>
+      <small><strong>Tags:</strong> {{ post.tags | join: ", " }}</small><br>
+      <p style="font-size: 0.9em; margin-top: 5px;">{{ post.summary }}</p>
+    </article>
+  {% endfor %}
+</div>
 
-## ✉️ Contato
+<br>
 
-* Nátalia Cardozo - nataliacardozo.unb@gmail.com
+---
