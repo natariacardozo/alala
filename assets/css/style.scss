@@ -1,47 +1,51 @@
 ---
 ---
+@import "{{ site.theme }}";
 
-/* 1. CONFIGURAÇÃO DOS LINKS DO MENU */
-.menu-horizontal a {
-    color: #1A365D !important; /* Azul Marinho Sóbrio */
-    font-weight: 600 !important;
+/* 1. MATA A LATERAL DO TEMA ORIGINAL */
+header, .sidebar, #sidebar { display: none !important; }
+.wrapper { display: block !important; max-width: none !important; margin: 0 !important; }
+
+/* 2. LOGO NO TOPO */
+.topo-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 3. MENU HORIZONTAL COM A SOMBRA QUE VOCÊ PEDIU */
+.barra-navegacao {
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; /* Sombra visível */
+    position: relative !important;
+    z-index: 99 !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+.barra-navegacao ul {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 40px !important;
+    list-style: none !important;
+    padding: 15px 0 !important;
+    margin: 0 !important;
+}
+
+.barra-navegacao a {
     text-decoration: none !important;
-    transition: color 0.2s ease-in-out;
+    color: #1A365D !important; /* Azul Marinho Sugerido */
+    font-weight: bold !important;
 }
 
-.menu-horizontal a:hover {
-    color: #4A5568 !important; /* Muda levemente para um cinza azulado */
+/* 4. CONTEÚDO CENTRALIZADO */
+.bloco-conteudo {
+    max-width: 900px !important;
+    margin: 40px auto !important;
+    padding: 0 20px !important;
+    display: block !important; /* Garante que não vá para a lateral */
 }
 
-/* 2. SOMBRA E FUNDO DO MENU */
-.menu-horizontal {
-    background-color: #ffffff !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important; /* Sombra muito leve */
-    border-bottom: 1px solid #edf2f7;
-}
-
-/* 3. LINKS DENTRO DOS ARTIGOS (CONTEÚDO) */
-.container-principal a {
-    color: #1A365D !important;
-    text-decoration: underline;
-}
-
-/* 4. TEXTO GERAL */
-body {
-    color: #2D2D2D !important;
-    line-height: 1.6; /* Melhora a leitura para quem tem TDAH */
-}
-
-.container-principal {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif !important;
-}
-
-h1, h2, h3, .menu-horizontal a {
-    font-family: 'Lora', serif !important;
+section {
+    width: 100% !important;
 }
