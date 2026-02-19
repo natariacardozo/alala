@@ -11,10 +11,10 @@ O **ALALA** é um espaço aberto para colaborações. Se você é pesquisador(a)
   <form action="https://formspree.io/f/xdallkrr" method="POST">
     
     <label>Seu nome:</label>
-    <input type="text" name="name" placeholder="Como quer ser chamado(a)?" required>
+    <input type="text" name="name" placeholder="Como gostaria de ser chamado(a)?" required>
 
     <label>Seu e-mail:</label>
-    <input type="email" name="_replyto" placeholder="seu-email@exemplo.com" required>
+    <input type="email" name="_replyto" placeholder="email@exemplo.com" required>
 
     <label>Assunto:</label>
     <select name="subject">
