@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Práticas avaliativas no ensino de inglês para alunos com deficiência múltipla: explorando a inteireza do possível"
-summary: "As discussões acerca da avaliação escolar é algo que há muito tempo perpassa os estudos sobre trabalho docente no Brasil (LUCKESI, 2000; HOFFMANN, 2001). Essas discussões ganham novas cores com o processo de inclusão escolar, em que começamos a tecer reflexões sobre práticas avaliativas com alunos com deficiência na escola regular (BRASIL, 2006; TEIXEIRA e NUNES, 2014). Assim, este artigo, fundamentando-se na perspectiva histórico-cultural de Vygotsky (1993[1945]), objetiva discutir como uma professora de língua inglesa compreende o processo de avaliação com um aluno com deficiência múltipla (DM). A professora evidencia especificidades envolvidas nas práticas avaliativas com seu aluno com DM e, também, a necessidade de acreditarmos que o ensino de inglês para esses alunos é possível."
+summary: "O estudo utiliza a base vygotskyana para mostrar que a avaliação em língua inglesa para alunos com deficiência múltipla não é apenas necessária, mas perfeitamente possível, desde que se reconheçam as especificidades desse estudante."
 tags: [Ensino de língua inglesa, Deficiência múltipla, Avaliação.]
 link_externo: "https://periodicos.ufrn.br/odisseia/article/view/9983"
 ---
