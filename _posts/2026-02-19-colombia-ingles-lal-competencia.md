@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Desenvolvimento da Competência em Avaliação de Idiomas (LAL) em professores de Inglês"
+title: "Un llamado al desarrollo de la competencia en evaluación de idiomas a través de los procesos formativos de profesores de inglés como lengua extranjera"
 summary: "Estudo sobre a formação docente em avaliação de línguas estrangeiras no contexto colombiano."
 tags: [Colômbia, Inglês, LAL, Formação de Professores, Competência em Avaliação]
 link_externo: "https://revistas.udistrital.edu.co/index.php/calj/article/view/8410"
