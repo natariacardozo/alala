@@ -5,28 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <title>ALALA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="site-alala">
 
-    <div class="banner-alala">
-        <img src="{{ '/logo.png' | relative_url }}" alt="Banner ALALA">
+    <div class="topo-banner">
+        <img src="{{ site.baseurl }}/logo.png" alt="ALALA">
     </div>
 
-    <nav class="menu-horizontal">
+    <nav class="barra-navegacao">
         <ul>
             <li><a href="{{ '/' | relative_url }}">Início</a></li>
             <li><a href="{{ '/sobre.html' | relative_url }}">Sobre o Projeto</a></li>
             <li><a href="{{ '/mapeamento.html' | relative_url }}">Mapeamento</a></li>
-            <li><a href="{{ '/categorias.html' | relative_url }}">Categorias</a></li>
         </ul>
     </nav>
 
-    <div class="container-principal">
-        <main>
+    <main class="bloco-conteudo">
+        <div class="inner-texto">
             {{ content }}
-        </main>
-    </div>
+        </div>
+    </main>
 
 </body>
 </html>
