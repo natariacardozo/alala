@@ -9,21 +9,20 @@
 <body>
 
     <div class="banner-alala">
-        <img src="{{ '/NOME-DA-SUA-LOGO.png' | relative_url }}" alt="Banner ALALA">
+        <img src="{{ '/logo.png' | relative_url }}" alt="Banner ALALA">
     </div>
 
-    <div class="container-flex">
-        
-        <nav class="menu-lateral">
-            <h3>Menu</h3>
-            <ul>
-                <li><a href="{{ '/' | relative_url }}">Início</a></li>
-                <li><a href="{{ '/sobre.html' | relative_url }}">Sobre</a></li>
-                <li><a href="{{ '/mapeamento.html' | relative_url }}">Mapeamento</a></li>
-            </ul>
-        </nav>
+    <nav class="menu-horizontal">
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Início</a></li>
+            <li><a href="{{ '/sobre.html' | relative_url }}">Sobre o Projeto</a></li>
+            <li><a href="{{ '/mapeamento.html' | relative_url }}">Mapeamento</a></li>
+            <li><a href="{{ '/categorias.html' | relative_url }}">Categorias</a></li>
+        </ul>
+    </nav>
 
-        <main class="texto-principal">
+    <div class="container-principal">
+        <main>
             {{ content }}
         </main>
     </div>
