@@ -44,24 +44,6 @@
             <main class="bloco-conteudo">
     {{ content }}
 
-    {% if page.link_externo %}
-    <div class="ficha-acervo">
-        <p>Este é um registro do acervo <strong>ALALA (Acervo Latino-Americano de Avaliação em Línguas)</strong>.</p>
-        <p>Para acessar o documento original ou o portal oficial da instituição responsável, utilize o link abaixo:</p>
-        
-        <p>👉 [<strong><a href="{{ page.link_externo }}" target="_blank">clique aqui</a></strong>]</p>
-        
-        <hr>
-
-        <div class="aviso-erro">
-            <h3>⚠️ Encontrou algum problema?</h3>
-            <p>Como este repositório mapeia links externos, é possível que alguns endereços sejam alterados pelas instituições de origem.</p>
-            <p>Se você encontrar um <strong>link quebrado</strong>, informações desatualizadas ou tiver dificuldades técnicas, por favor, entre em contato conosco para que possamos realizar a correção:</p>
-            <p>📧 <strong><a href="mailto:nataliacardozo.unb@aqui.com">nataliacardozo.unb@gmail.com</a></strong> ou via <a href="{{ '/contato.html' | relative_url }}">Contato</a>.</p>
-        </div>
-    </div>
-    {% endif %}
-</main>
         </div>
     </main>
 
