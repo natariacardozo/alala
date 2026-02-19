@@ -1,34 +1,37 @@
 ---
 ---
 
-/* 1. Tira o cabeçalho azul/cinza original do tema */
-header { display: none !important; }
-
-/* 2. Banner no topo ocupando a largura total */
-.banner-alala img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* 3. Menu Horizontal (Lado a Lado) - Sem cores ou fundos */
-.menu-horizontal ul {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    gap: 40px !important;
-    list-style: none !important;
-    padding: 20px 0 !important;
-    margin: 0 !important;
-    background: transparent !important; /* Garante que não tenha fundo */
-}
-
-/* Mantém os links com a cor padrão do seu navegador/tema */
+/* 1. CONFIGURAÇÃO DOS LINKS DO MENU */
 .menu-horizontal a {
-    text-decoration: underline !important;
+    color: #1A365D !important; /* Azul Marinho Sóbrio */
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
 }
 
-/* 4. Conteúdo abaixo do menu centralizado */
+.menu-horizontal a:hover {
+    color: #4A5568 !important; /* Muda levemente para um cinza azulado */
+}
+
+/* 2. SOMBRA E FUNDO DO MENU */
+.menu-horizontal {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important; /* Sombra muito leve */
+    border-bottom: 1px solid #edf2f7;
+}
+
+/* 3. LINKS DENTRO DOS ARTIGOS (CONTEÚDO) */
+.container-principal a {
+    color: #1A365D !important;
+    text-decoration: underline;
+}
+
+/* 4. TEXTO GERAL */
+body {
+    color: #2D2D2D !important;
+    line-height: 1.6; /* Melhora a leitura para quem tem TDAH */
+}
+
 .container-principal {
     max-width: 900px;
     margin: 0 auto;
