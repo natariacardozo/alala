@@ -1,4 +1,6 @@
-# ALALA: Acervo Latino-Americano de Avaliação em Línguas
+<p align="center">
+  <img src="logo.png" alt="ALALA Logo" width="300">
+</p>
 
 Olá! Seja bem-vindo(a) à pagina oficial do ALALA.
 
