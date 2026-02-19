@@ -2,56 +2,44 @@
 ---
 @import "{{ site.theme }}";
 
-/* Esconde o cabeçalho azul/cinza original do tema */
-header.sidebar { display: none !important; }
+/* 1. ESCONDE O MENU ANTIGO (A barra lateral original do tema Minimal) */
+header { 
+    display: none !important; 
+}
 
-/* Faz o banner ocupar a largura total no topo */
-.banner-topo img {
+/* 2. ESTILO DO BANNER (Agora ele vai aparecer!) */
+.banner-superior img {
     width: 100%;
     height: auto;
     display: block;
+    margin: 0;
 }
 
-/* Organiza o Menu e o Conteúdo embaixo do banner */
+/* 3. COLOCA O MENU E O TEXTO LADO A LADO */
 .wrapper {
-    display: flex;
-    max-width: 1200px;
+    display: flex !important;
+    max-width: 1100px;
     margin: 20px auto;
-    padding: 0 20px;
-    gap: 40px; /* Espaço entre menu e texto */
+    gap: 40px;
+    align-items: flex-start;
 }
 
-/* Estilo do seu novo Menu Lateral */
+/* Ajuste para o conteúdo não ficar espremido */
+section {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .sidebar-nova {
     width: 200px;
     flex-shrink: 0;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
 }
 
-.sidebar-nova h3 {
-    color: #b42c3d; /* Vermelho da logo */
-    border-bottom: 2px solid #eee;
-}
-
-.sidebar-nova ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar-nova li {
-    margin-bottom: 10px;
-}
-
-.sidebar-nova a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #333;
-}
-
-.sidebar-nova a:hover {
-    color: #2e7d32; /* Verde da logo ao passar o mouse */
-}
-
-/* Área do texto principal */
 .content-principal {
     flex-grow: 1;
 }
