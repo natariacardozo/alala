@@ -45,6 +45,25 @@
 
             <div class="conteudo-principal">
                 {{ content }}
+                {% if page.is_home %}
+<div class="busca-alala">
+    <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
+    <ul id="results-container"></ul>
+</div>
+
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script>
+  window.simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
+    noResultsText: 'Nenhum resultado encontrado.',
+    limit: 10,
+    fuzzy: false
+  })
+</script>
+{% endif %}
             </div>
 
         </div>
