@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="logo.png" alt="ALALA Logo" width="1000">
-</p>
+# ALALA
 
 Olá! Seja bem-vindo(a) à pagina oficial do ALALA.
 
