@@ -2,37 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. ESCONDE O MENU ANTIGO (A barra lateral original do tema Minimal) */
-header { 
-    display: none !important; 
+/* 1. ESCONDE O CABEÇALHO ANTIGO DO TEMA */
+header { display: none !important; }
+
+/* 2. LOGO NO TOPO - BLOCO ÚNICO */
+.banner-alala {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/* 2. ESTILO DO BANNER (Agora ele vai aparecer!) */
-.banner-superior img {
+.banner-alala img {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0;
 }
 
-/* 3. COLOCA O MENU E O TEXTO LADO A LADO */
-.wrapper {
+/* 3. COLOCA O MENU E O TEXTO LADO A LADO, MAS ABAIXO DA LOGO */
+.container-flex {
     display: flex !important;
+    flex-direction: row; /* Garante que fiquem lado a lado */
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 30px auto;
     gap: 40px;
-    align-items: flex-start;
+    padding: 0 20px;
 }
 
-/* Ajuste para o conteúdo não ficar espremido */
+/* Tira as travas do tema original */
 section {
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-    padding: 0 !important;
 }
 
-.sidebar-nova {
+/* Estilo do Menu */
+.menu-lateral {
     width: 200px;
     flex-shrink: 0;
     background: #f4f4f4;
@@ -40,6 +44,17 @@ section {
     border-radius: 8px;
 }
 
-.content-principal {
+/* Estilo do Conteúdo */
+.texto-principal {
     flex-grow: 1;
+}
+
+/* Se for no celular, coloca um embaixo do outro */
+@media (max-width: 768px) {
+    .container-flex {
+        flex-direction: column;
+    }
+    .menu-lateral {
+        width: 100%;
+    }
 }
