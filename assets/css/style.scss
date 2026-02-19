@@ -2,59 +2,53 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. ESCONDE O CABEÇALHO ANTIGO DO TEMA */
+/* Esconde o menu antigo do tema */
 header { display: none !important; }
 
-/* 2. LOGO NO TOPO - BLOCO ÚNICO */
-.banner-alala {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
+/* 1. BANNER */
 .banner-alala img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* 3. COLOCA O MENU E O TEXTO LADO A LADO, MAS ABAIXO DA LOGO */
-.container-flex {
-    display: flex !important;
-    flex-direction: row; /* Garante que fiquem lado a lado */
-    max-width: 1100px;
-    margin: 30px auto;
-    gap: 40px;
+/* 2. MENU HORIZONTAL */
+.menu-horizontal {
+    background-color: #f4f4f4; /* Cinza claro */
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+
+.menu-horizontal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 30px; /* Espaço entre as opções */
+}
+
+.menu-horizontal a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #b42c3d; /* Vermelho da sua logo */
+    font-family: sans-serif;
+}
+
+.menu-horizontal a:hover {
+    color: #2e7d32; /* Verde da sua logo */
+}
+
+/* 3. CONTEÚDO CENTRALIZADO */
+.container-principal {
+    max-width: 900px; /* Largura boa para leitura acadêmica */
+    margin: 40px auto;
     padding: 0 20px;
 }
 
-/* Tira as travas do tema original */
+/* Garante que o tema não 'esprema' o texto */
 section {
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-}
-
-/* Estilo do Menu */
-.menu-lateral {
-    width: 200px;
-    flex-shrink: 0;
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-/* Estilo do Conteúdo */
-.texto-principal {
-    flex-grow: 1;
-}
-
-/* Se for no celular, coloca um embaixo do outro */
-@media (max-width: 768px) {
-    .container-flex {
-        flex-direction: column;
-    }
-    .menu-lateral {
-        width: 100%;
-    }
 }
