@@ -8,7 +8,7 @@ title: Contato
 O **ALALA** é um espaço aberto para colaborações. Se você é pesquisador(a), professor(a) ou estudante e deseja colaborar, sugerir a inclusão de novas pesquisas ou reportar inconsistências nos links mapeados, utilize os canais abaixo:
 
 <div class="formulario-contato">
-  <form action=["https://formspree.io/f/xdallkrr" method="POST">
+action="https://formspree.io/f/xdallkrr"
     
     <label>Seu nome:</label>
     <input type="text" name="name" placeholder="Como quer ser chamado(a)?" required>
