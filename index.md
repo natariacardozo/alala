@@ -12,9 +12,9 @@ Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 
 | **Por Território** | **Por Idioma** | **Por Categoria** |
 | :--- | :--- | :--- |
-| [Mapeamento Chile]({{ '/tag/chile' | relative_url }}) | [Língua Espanhola]({{ '/tag/espanhol' | relative_url }}) | [Instrumentos DEA]({{ '/tag/dea' | relative_url }}) |
-| [Mapeamento Colômbia]({{ '/tag/colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag/portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag/lal' | relative_url }}) |
-| [Mapeamento Brasil]({{ '/tag/brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag/ingles' | relative_url }}) | [Acessibilidade]({{ '/tag/acessibilidade' | relative_url }}) |
+| [Mapeamento Chile]({{ '/tag.html?tag=chile' | relative_url }}) | [Língua Espanhola]({{ '/tag.html?tag=espanhol' | relative_url }}) | [Instrumentos DEA]({{ '/tag.html?tag=dea' | relative_url }}) |
+| [Mapeamento Colômbia]({{ '/tag.html?tag=colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag.html?tag=portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag.html?tag=lal' | relative_url }}) |
+| [Mapeamento Brasil]({{ '/tag.html?tag=brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag.html?tag=ingles' | relative_url }}) | [Acessibilidade]({{ '/tag.html?tag=acessibilidade' | relative_url }}) |
 
 ---
 
