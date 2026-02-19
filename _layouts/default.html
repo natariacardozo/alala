@@ -15,7 +15,7 @@
     <nav class="barra-navegacao">
         <ul>
             <li><a href="{{ '/' | relative_url }}">Início</a></li>
-            <li><a href="{{ '/sobre.html' | relative_url }}">Sobre o Projeto</a></li>
+            <li><a href="{{ '/sobre.html' | relative_url }}">Sobre</a></li>
             <li><a href="{{ '/mapeamento.html' | relative_url }}">Mapeamento</a></li>
             <li><a href="{{ '/contato.html' | relative_url }}">Contato</a></li>
         </ul>
@@ -24,11 +24,6 @@
     <main class="bloco-conteudo">
         <div class="inner-texto">
             
-            <div class="busca-alala">
-                <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
-                <ul id="results-container"></ul>
-            </div>
-
             {% if page.summary and page.url != "/" and page.url != "/index.html" %}
             <div class="ficha-tecnica" style="background: #fdfdfd; border: 1px solid #eee; padding: 25px; margin-bottom: 30px; border-radius: 8px;">
                 <h1 style="color: #1A365D; margin-top: 0;">{{ page.title }}</h1>
@@ -45,42 +40,10 @@
 
             <div class="conteudo-principal">
                 {{ content }}
-                {% if page.is_home %}
-<div class="busca-alala">
-    <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
-    <ul id="results-container"></ul>
-</div>
-
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-<script>
-  window.simpleJekyllSearch = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
-    noResultsText: 'Nenhum resultado encontrado.',
-    limit: 10,
-    fuzzy: false
-  })
-</script>
-{% endif %}
             </div>
 
         </div>
     </main>
-
-    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
-        noResultsText: 'Nenhum resultado encontrado.',
-        limit: 10,
-        fuzzy: false
-      })
-    </script>
 
 </body>
 </html>
