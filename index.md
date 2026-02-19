@@ -33,8 +33,6 @@ Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 | [Mapeamento Colômbia]({{ '/tag.html?tag=colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag.html?tag=portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag.html?tag=lal' | relative_url }}) |
 | [Mapeamento Brasil]({{ '/tag.html?tag=brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag.html?tag=ingles' | relative_url }}) | [Acessibilidade]({{ '/tag.html?tag=acessibilidade' | relative_url }}) |
 
----
-
 ### 🆕 Adições Recentes ao Acervo
 *Confira os últimos registros mapeados na nossa base de dados:*
 
