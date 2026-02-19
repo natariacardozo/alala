@@ -24,10 +24,25 @@
     <main class="bloco-conteudo">
         <div class="inner-texto">
             
+            {% if page.url == "/" or page.url == "/index.html" %}
             <div class="busca-alala">
                 <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame...">
                 <ul id="results-container"></ul>
             </div>
+
+            <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+            <script>
+              window.simpleJekyllSearch = new SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('results-container'),
+                json: '{{ site.baseurl }}/search.json',
+                searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
+                noResultsText: 'Nenhum resultado encontrado.',
+                limit: 10,
+                fuzzy: false
+              })
+            </script>
+            {% endif %}
 
             {% if page.summary and page.url != "/" and page.url != "/index.html" %}
             <div class="ficha-tecnica" style="background: #fdfdfd; border: 1px solid #eee; padding: 25px; margin-bottom: 30px; border-radius: 8px;">
@@ -49,19 +64,6 @@
 
         </div>
     </main>
-
-    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}">{title}</a><br><small>{summary}</small></li>',
-        noResultsText: 'Nenhum resultado encontrado.',
-        limit: 10,
-        fuzzy: false
-      })
-    </script>
 
 </body>
 </html>
