@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-> "A avaliação não é apenas um instrumento técnico; é uma prática social que reflete identidades e territórios."
+> "O ALALA é um esforço de curadoria para que as avaliações de línguas na América Latina não sejam apenas dados, mas rastros de cultura e identidade."
 
 ---
 
