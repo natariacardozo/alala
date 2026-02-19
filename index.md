@@ -5,9 +5,9 @@ title: Home
 
 > O ALALA é um esforço de curadoria para que as avaliações de línguas na América Latina não sejam apenas dados, mas rastros de cultura e identidade.
 
-<div class="busca-alala" style="margin: 30px 0 40px 0;">
+<div class="busca-alala" style="margin: 30px 0 20px 0;">
   <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame..." style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid #ccc; box-sizing: border-box;">
-  <ul id="results-container" style="list-style: none; padding-left: 0;"></ul>
+  <ul id="results-container" style="list-style: none; padding: 0; margin: 0; border: none;"></ul>
 </div>
 
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
@@ -17,7 +17,7 @@ title: Home
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong></a><br><small>{summary}</small></li>',
+    searchResultTemplate: '<li style="border-bottom: 1px solid #eee; padding: 10px 0;"><a href="{url}"><strong>{title}</strong></a><br><small>{summary}</small></li>',
     noResultsText: 'Nenhum resultado encontrado.',
     limit: 10,
     fuzzy: false
