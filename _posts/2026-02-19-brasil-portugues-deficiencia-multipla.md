@@ -2,7 +2,7 @@
 layout: default
 title: "Práticas avaliativas no ensino de inglês para alunos com deficiência múltipla: explorando a inteireza do possível"
 summary: "O estudo utiliza a base vygotskyana para mostrar que a avaliação em língua inglesa para alunos com deficiência múltipla não é apenas necessária, mas perfeitamente possível, desde que se reconheçam as especificidades desse estudante."
-tags: [Ensino de língua inglesa, Deficiência múltipla, Avaliação.]
+tags: [Brasil, Inglês, Inclusão, DM, Vygotsky.]
 link_externo: "https://periodicos.ufrn.br/odisseia/article/view/9983"
 ---
 
