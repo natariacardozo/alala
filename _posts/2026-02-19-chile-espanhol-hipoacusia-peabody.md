@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Avaliação da linguagem oral em crianças com hipoacusia: Testes estandarizados e idade auditiva"
+title: "Evaluación del lenguaje oral en niños y niñas con hipoacusia: Los tests estandarizados y la edad auditiva"
 summary: "Análise da precisão de testes de vocabulário (Peabody) em crianças falantes de espanhol com hipoacusia."
 tags: [Chile, Espanhol, Hipoacusia, Vocabulário, Peabody, Acessibilidade]
 link_externo: "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-09342022000300928&lng=en&nrm=iso&tlng=en"
