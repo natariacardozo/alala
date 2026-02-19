@@ -2,41 +2,56 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. APAGA O MENU ANTIGO E A COLUNA ESQUERDA */
-header {
-    display: none !important;
+/* Esconde o cabeçalho azul/cinza original do tema */
+header.sidebar { display: none !important; }
+
+/* Faz o banner ocupar a largura total no topo */
+.banner-topo img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-section {
-    width: 100% !important;
-    max-width: none !important;
-    float: none !important;
-    margin: 0 !important;
-}
-
-/* 2. ESTILO DO SEU NOVO MENU PERSONALIZADO */
+/* Organiza o Menu e o Conteúdo embaixo do banner */
 .wrapper {
-    display: flex; /* Coloca menu e conteúdo lado a lado */
-    max-width: 1100px;
-    margin: 0 auto;
-    gap: 30px;
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 40px; /* Espaço entre menu e texto */
 }
 
-.meu-menu-lateral {
+/* Estilo do seu novo Menu Lateral */
+.sidebar-nova {
     width: 200px;
     flex-shrink: 0;
-    padding: 20px;
-    background: #f4f4f4;
-    border-radius: 8px;
 }
 
-.meu-menu-lateral ul {
+.sidebar-nova h3 {
+    color: #b42c3d; /* Vermelho da logo */
+    border-bottom: 2px solid #eee;
+}
+
+.sidebar-nova ul {
     list-style: none;
     padding: 0;
 }
 
-.meu-menu-lateral a {
+.sidebar-nova li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nova a {
     text-decoration: none;
-    color: #b42c3d; /* Vermelho da sua logo */
     font-weight: bold;
+    color: #333;
+}
+
+.sidebar-nova a:hover {
+    color: #2e7d32; /* Verde da logo ao passar o mouse */
+}
+
+/* Área do texto principal */
+.content-principal {
+    flex-grow: 1;
 }
