@@ -96,39 +96,54 @@ section {
     text-decoration: none;
 }
 
-/* ESTILO DO FORMULÁRIO */
+/* ESTILO DO FORMULÁRIO CENTRALIZADO E UNIFORME */
 .formulario-contato {
-    max-width: 600px;
-    margin: 30px 0;
+    max-width: 500px;       /* Reduzi um pouco a largura para ficar mais elegante */
+    margin: 40px auto;      /* O 'auto' nas laterais centraliza o bloco na página */
+    padding: 30px;
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Um detalhe sutil de profundidade */
 }
 
 .formulario-contato label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #1A365D;
+    font-size: 0.95em;
 }
 
 .formulario-contato input, 
 .formulario-contato select, 
 .formulario-contato textarea {
-    width: 100%;
-    padding: 10px;
+    width: 100%;            /* Garante que todos ocupem a mesma largura */
+    padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* Bordas agora com a mesma espessura e cor */
     border-radius: 4px;
     font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box; /* FUNDAMENTAL: impede que o padding "estique" a borda */
+    display: block;
+}
+
+.formulario-contato textarea {
+    resize: vertical;       /* Permite aumentar a altura, mas não a largura (para não quebrar o layout) */
 }
 
 .botao-enviar {
     background-color: #1A365D;
     color: white;
-    padding: 12px 20px;
+    padding: 14px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 1em;
     width: 100%;
+    transition: background-color 0.3s ease;
 }
 
 .botao-enviar:hover {
