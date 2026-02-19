@@ -24,8 +24,6 @@ title: Home
   })
 </script>
 
----
-
 ### 🌎 Navegação por Eixos
 Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 
