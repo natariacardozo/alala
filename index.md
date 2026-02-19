@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+is_home: true
 ---
 
 > O ALALA é um esforço de curadoria para que as avaliações de línguas na América Latina não sejam apenas dados, mas rastros de cultura e identidade.
