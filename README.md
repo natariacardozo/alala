@@ -1,6 +1,6 @@
-# ALALA
-
-Olá! Seja bem-vindo(a) à pagina oficial do ALALA.
+---
+layout: default
+---
 
 ## 🎯 O que é este projeto?
 
