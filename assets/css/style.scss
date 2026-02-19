@@ -13,10 +13,10 @@ header, .sidebar, #sidebar { display: none !important; }
     display: block;
 }
 
-/* 3. MENU HORIZONTAL COM A SOMBRA QUE VOCÊ PEDIU */
+/* 3. MENU HORIZONTAL COM SOMBRA E DIVISÓRIAS */
 .barra-navegacao {
     background: #ffffff !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; /* Sombra visível */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
     position: relative !important;
     z-index: 99 !important;
     border-bottom: 1px solid #eee !important;
@@ -26,15 +26,28 @@ header, .sidebar, #sidebar { display: none !important; }
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-    gap: 40px !important;
+    gap: 0 !important; /* Tiramos o gap para a linha ficar centralizada */
     list-style: none !important;
     padding: 15px 0 !important;
     margin: 0 !important;
 }
 
+.barra-navegacao li {
+    display: inline-block !important;
+    /* Adiciona a linha divisória cinza claro */
+    border-right: 1px solid #dbdbdb !important; 
+    padding: 0 30px !important; /* Espaço entre o texto e a linha */
+    line-height: 1.2 !important;
+}
+
+/* Remove a linha divisória da última opção (Mapeamento) */
+.barra-navegacao li:last-child {
+    border-right: none !important;
+}
+
 .barra-navegacao a {
     text-decoration: none !important;
-    color: #1A365D !important; /* Azul Marinho Sugerido */
+    color: #1A365D !important;
     font-weight: bold !important;
 }
 
