@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Filtrar por Tag"
+---
+
+<h2 id="tag-title">Explorando o Acervo</h2>
+<div id="tag-results">
+  <ul class="lista-posts">
+    {% for post in site.posts %}
+      <li class="post-item" data-tags="{{ post.tags | join: ',' | downcase }}" style="display: none; margin-bottom: 20px;">
+        <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>
+        <p style="font-size: 0.9em;">{{ post.summary }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  // Script simples para ler a tag da URL (ex: tag.html?tag=chile)
+  const urlParams = new URLSearchParams(window.location.search);
+  const tag = urlParams.get('tag')?.toLowerCase();
+  const posts = document.querySelectorAll('.post-item');
+  const titleEl = document.getElementById('tag-title');
+
+  if (tag) {
+    titleEl.innerText = `Resultados para: ${tag.charAt(0).toUpperCase() + tag.slice(1)}`;
+    posts.forEach(post => {
+      const postTags = post.getAttribute('data-tags').split(',');
+      if (postTags.includes(tag)) {
+        post.style.display = 'block';
+      }
+    });
+  } else {
+    titleEl.innerText = "Todas as Categorias";
+    posts.forEach(post => post.style.display = 'block');
+  }
+</script>
