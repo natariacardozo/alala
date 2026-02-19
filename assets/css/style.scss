@@ -2,51 +2,38 @@
 ---
 @import "{{ site.theme }}";
 
-/* Esconde o menu antigo do tema */
+/* Remove o cabeçalho original do tema */
 header { display: none !important; }
 
-/* 1. BANNER */
+/* Banner no topo */
 .banner-alala img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* 2. MENU HORIZONTAL */
-.menu-horizontal {
-    background-color: #f4f4f4; /* Cinza claro */
-    border-bottom: 2px solid #ddd;
-    padding: 10px 0;
-}
-
+/* Menu Horizontal - Apenas posicionamento */
 .menu-horizontal ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centraliza os itens do menu */
-    gap: 30px; /* Espaço entre as opções */
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 40px !important;
+    list-style: none !important;
+    padding: 20px 0 !important;
+    margin: 0 !important;
 }
 
 .menu-horizontal a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #b42c3d; /* Vermelho da sua logo */
-    font-family: sans-serif;
+    text-decoration: none !important;
 }
 
-.menu-horizontal a:hover {
-    color: #2e7d32; /* Verde da sua logo */
-}
-
-/* 3. CONTEÚDO CENTRALIZADO */
+/* Conteúdo centralizado abaixo do menu */
 .container-principal {
-    max-width: 900px; /* Largura boa para leitura acadêmica */
-    margin: 40px auto;
-    padding: 0 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Garante que o tema não 'esprema' o texto */
 section {
     width: 100% !important;
     max-width: none !important;
