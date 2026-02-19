@@ -19,7 +19,7 @@ O **ALALA** é um espaço aberto para colaborações. Se você é pesquisador(a)
     <label>Assunto:</label>
     <select name="subject">
       <option value="Nova Pesquisa">Envie sua pesquisa</option>
-      <option value="Erro no Link">Reportar Link quebrado</option>
+      <option value="Erro no Link">Reportar link quebrado</option>
       <option value="Dúvida Acadêmica">Dúvida ou colaboração acadêmica</option>
       <option value="Outro">Outro</option>
     </select>
