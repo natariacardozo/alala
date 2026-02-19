@@ -18,4 +18,4 @@ Como este repositório mapeia links externos, é possível que alguns endereços
 
 Se você encontrar um **link quebrado**, informações desatualizadas ou tiver dificuldades técnicas, por favor, entre em contato conosco para que possamos realizar a correção:
 
-📧 **[nataliacardozo.unb@aqui.com]** ou via [Contato]({{ '/contato.html' | relative_url }}).
+📧 **[nataliacardozo.unb@gmail.com]** ou via [Contato]({{ '/contato.html' | relative_url }}).
