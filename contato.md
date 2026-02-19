@@ -34,4 +34,4 @@ O **ALALA** é um espaço aberto para colaborações. Se você é pesquisador(a)
 </div>
 
 ---
-*Para contatos diretos, você também pode escrever para: **nataliacardozo.unb@aqui.com***
+*Para contatos diretos, você também pode escrever para: **nataliacardozo.unb@gmail.com***
