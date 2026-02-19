@@ -95,3 +95,42 @@ section {
     font-weight: bold;
     text-decoration: none;
 }
+
+/* ESTILO DO FORMULÁRIO */
+.formulario-contato {
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+.formulario-contato label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1A365D;
+}
+
+.formulario-contato input, 
+.formulario-contato select, 
+.formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.botao-enviar {
+    background-color: #1A365D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.botao-enviar:hover {
+    background-color: #2c5282;
+}
