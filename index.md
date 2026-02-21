@@ -29,13 +29,13 @@ title: Home
 ## 🆕 Adições Recentes ao Acervo
 *Últimos registros mapeados na nossa base de dados:*
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 #### [{{ post.title }}]({{ post.url }})
 <div class="tag-container">
   **Tags:** {% if post.tags %}{{ post.tags | join: ", " }}{% else %}*(Sem tags vinculadas)*{% endif %}
 </div>
 <div class="resumo-preview">
-  {{ post.resumo_original | strip_html | truncatewords: 25 }}
+  {{ post.resumo_original | strip_html | truncatewords: 30 }}
 </div>
 
 ---
