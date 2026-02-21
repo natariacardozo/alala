@@ -74,4 +74,47 @@ Em defesa da identidade, da ética e da soberania científica latino-americana.
 <script>
   (function() {
     let searchData = [];
-    const input = document.getElementById('search-input
+    const input = document.getElementById('search-input');
+    const results = document.getElementById('results-container');
+
+    // Busca o arquivo JSON da raiz do site
+    fetch('{{ "/search.json" | relative_url }}')
+      .then(response => {
+        if (!response.ok) throw new Error("Erro ao carregar search.json");
+        return response.json();
+      })
+      .then(data => { 
+        searchData = data;
+        console.log("ALALA: Banco de dados carregado.");
+      })
+      .catch(err => console.error("Erro na busca: ", err));
+
+    input.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      results.innerHTML = '';
+
+      if (query.length < 2) return;
+
+      const filtered = searchData.filter(item => 
+        (item.title || "").toLowerCase().includes(query) || 
+        (item.tags || "").toLowerCase().includes(query) ||
+        (item.resumo || "").toLowerCase().includes(query)
+      );
+
+      if (filtered.length === 0) {
+        results.innerHTML = '<li style="color:#666; list-style:none;">Nenhum registro encontrado.</li>';
+        return;
+      }
+
+      filtered.forEach(item => {
+        const li = document.createElement('li');
+        li.style.cssText = "background:#fdfdfd; padding:12px; border:1px solid #eee; border-radius:4px; margin-bottom:8px; list-style:none;";
+        li.innerHTML = `
+          <h4 style="margin: 0;"><a href="${item.url}" style="color: #0056b3; text-decoration: none;">${item.title}</a></h4>
+          <small style="color: #888;">Tags: ${item.tags}</small>
+        `;
+        results.appendChild(li);
+      });
+    });
+  })();
+</script>
