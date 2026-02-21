@@ -5,44 +5,40 @@ title: Home
 
 > Em defesa da identidade, da ética e da soberania científica latino-americana.
 
-<div class="busca-alala" style="margin: 30px 0 20px 0;">
-  <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame..." style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid #ccc; box-sizing: border-box;">
-  <ul id="results-container" style="list-style: none; padding: 0; margin: 0; border: none;"></ul>
-</div>
+---
+<style>
+  /* Ajuste para fonte acadêmica e discreta */
+  body { font-size: 15px; line-height: 1.6; color: #333; }
+  h2 { font-size: 1.3em !important; font-weight: bold; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+  h4 { font-size: 1.1em !important; margin-bottom: 5px; color: #0056b3; }
+  .tag-container { font-size: 12px; color: #666; margin-bottom: 10px; }
+  .resumo-preview { font-size: 14px; color: #444; }
+  table { width: 100%; font-size: 14px; margin-bottom: 30px; }
+</style>
 
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-<script>
-  window.simpleJekyllSearch = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li style="border-bottom: 1px solid #eee; padding: 10px 0;"><a href="{url}"><strong>{title}</strong></a><br><small>{summary}</small></li>',
-    noResultsText: 'Nenhum resultado encontrado.',
-    limit: 10,
-    fuzzy: false
-  })
-</script>
-
-### 🌎 Navegação por Eixos
-Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
+## 🔍 Navegação por Eixos Temáticos
 
 | **Por Território** | **Por Idioma** | **Por Categoria** |
 | :--- | :--- | :--- |
-| [Mapeamento Chile]({{ '/tag.html?tag=chile' | relative_url }}) | [Língua Espanhola]({{ '/tag.html?tag=espanhol' | relative_url }}) | [Instrumentos DEA]({{ '/tag.html?tag=dea' | relative_url }}) |
-| [Mapeamento Colômbia]({{ '/tag.html?tag=colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag.html?tag=portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag.html?tag=lal' | relative_url }}) |
-| [Mapeamento Brasil]({{ '/tag.html?tag=brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag.html?tag=ingles' | relative_url }}) | [Acessibilidade]({{ '/tag.html?tag=acessibilidade' | relative_url }}) |
+| [Mapeamento Chile](/territorio-chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
+| [Mapeamento Colômbia](/territorio-colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
+| [Mapeamento Brasil](/territorio-brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
 
-### 🆕 Adições Recentes ao Acervo
-Confira os últimos registros mapeados na nossa base de dados:
+---
 
-{% for post in site.posts limit:10 %}
-**{{ post.title }}**({{ post.url }})
-<div class="tag-box">**Tags:** {{ post.tags | join: ", " }}</div>
+## 🆕 Adições Recentes ao Acervo
+*Últimos registros mapeados na nossa base de dados:*
 
-{{ post.resumo_original | strip_html | truncatewords: 30 }}
+{% for post in site.posts limit:5 %}
+#### [{{ post.title }}]({{ post.url }})
+<div class="tag-container">
+  **Tags:** {% if post.tags %}{{ post.tags | join: ", " }}{% else %}*(Sem tags vinculadas)*{% endif %}
+</div>
+<div class="resumo-preview">
+  {{ post.resumo_original | strip_html | truncatewords: 25 }}
+</div>
 
+---
 {% endfor %}
 
-### [Ver todos os registros →](/arquivo)
----
+[Ver todos os registros →](/arquivo)
