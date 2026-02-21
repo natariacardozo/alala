@@ -27,3 +27,6 @@ link_externo: "https://revistas.udistrital.edu.co/index.php/calj/article/view/84
 ---
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
+
+---
+<i>Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.</i>
