@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Entrance examinations and TEFL in Brazil: a case study"
 titulo_original: "Entrance examinations and TEFL in Brazil: a case study"
 autores: ["Matilde V. R. Scaramucci"]
 resumo_original: |
@@ -9,12 +10,30 @@ lingua_avaliada: ["Inglês"]
 categorias: ["Métodos e Aspectos Sociais da Avaliação", "Impacto, retroalimentação e consequências dos testes"]
 ano: "2002"
 periodico: "Revista Brasileira de Linguística Aplicada"
+link: "https://www.scielo.br/j/rbla/a/XnTyvV5XJfFSnHYh9KJsFxp/?lang=en"
 ---
 
-### 🔗 Detalhes e Acesso
-* **Periódico:** Revista Brasileira de Linguística Aplicada
-* **Ano de Publicação:** 2002
-* **Link para o documento:** [Acesse via SciELO](https://www.scielo.br/j/rbla/a/XnTyvV5XJfFSnHYh9KJsFxp/?lang=en)
+# {{ page.titulo_original }}
+
+**Autores:** {{ page.autores | join: ", " }}
+**Ano:** {{ page.ano }} | **Periódico:** {{ page.periodico }}
 
 ---
-*Para sugestões ou correções sobre este registro, entre em contato com a equipe do ALALA.*
+
+### 🏷️ Categorias e Classificação
+**País:** {{ page.pais | join: ", " }}
+**Língua Avaliada:** {{ page.lingua_avaliada | join: ", " }}
+**Eixos Temáticos:** {{ page.categorias | join: ", " }}
+
+---
+
+### 📄 Resumo Original
+{{ page.resumo_original }}
+
+---
+
+### 🔗 Acesso ao Documento
+[Clique aqui para ler o artigo completo]({{ page.link }})
+
+---
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
