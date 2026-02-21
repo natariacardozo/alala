@@ -29,7 +29,7 @@ permalink: /pais/colombia
 
 <script>
   (function() {
-    const tagAlvo = "colômbia"; // Define o filtro para esta página
+    const tagAlvo = "colombia"; // Define o filtro para esta página
     const posts = document.querySelectorAll('.post-item');
     const titleEl = document.getElementById('tag-title');
     let encontrados = 0;
