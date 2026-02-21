@@ -28,9 +28,9 @@ title: "ALALA - Início"
 
 | **Por Território** | **Por Idioma** | **Por Categoria** |
 | :--- | :--- | :--- |
-| [Mapeamento Chile](/territorio-chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
-| [Mapeamento Colômbia](/territorio-colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
-| [Mapeamento Brasil](/territorio-brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
+| [Chile](/territorio-chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
+| [Colômbia](/territorio-colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
+| [Brasil](/territorio-brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
 
 ---
 
@@ -41,7 +41,7 @@ title: "ALALA - Início"
 <div class="tag-container">
 <b>Tags:</b> {{ post.tags | join: ", " }}
 </div>
-{{ post.resumo_original | strip_html | truncatewords: 25 }}
+{{ post.resumo_original | strip_html | truncatewords: 30 }}
 
 ---
 {% endfor %}
