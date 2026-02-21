@@ -6,8 +6,8 @@ autores: ["Frank Giraldo"]
 resumo_original: "Estudo sobre a formação docente em avaliação de línguas estrangeiras no contexto colombiano."
 pais: "Colômbia"
 lingua_avaliada: "Inglês"
-categoria: "Formação de Professores"
-subcategoria: "Competência em Avaliação (LAL)"
+categoria: "Avaliação de Competências e Populações Específicas"
+subcategoria: "Avaliação de competência interacional e pragmática"
 link_externo: "https://revistas.udistrital.edu.co/index.php/calj/article/view/8410"
 ---
 
@@ -20,14 +20,11 @@ link_externo: "https://revistas.udistrital.edu.co/index.php/calj/article/view/84
 ---
 
 **Resumo:** Estudo sobre a formação docente em avaliação de línguas estrangeiras no contexto colombiano. O artigo discute a necessidade de fortalecer a Competência em Avaliação de Idiomas (LAL) nos programas de formação de professores de inglês.
-
----
-
-Este é um registro do acervo **ALALA (Acervo Latino-Americano de Avaliação em Línguas)**. 
+ 
 Para acessar o documento original ou o portal oficial da instituição responsável, utilize o link abaixo:
 
-👉 [**clique aqui**]({{ page.link_externo }})
+🔗 [**Clique aqui**]({{ page.link_externo }})
 
 ---
 
-Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
