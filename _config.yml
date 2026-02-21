@@ -3,3 +3,5 @@ theme: jekyll-theme-minimal
 title: ALALA
 description: Acervo Latino-Americano de Avaliação em Línguas
 logo: /logo.png
+url: "https://alala.lat"
+baseurl: ""
