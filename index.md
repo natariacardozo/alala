@@ -33,23 +33,21 @@ Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 | [Mapeamento Colômbia]({{ '/tag.html?tag=colombia' | relative_url }}) | [Língua Portuguesa]({{ '/tag.html?tag=portugues' | relative_url }}) | [Formação (LAL)]({{ '/tag.html?tag=lal' | relative_url }}) |
 | [Mapeamento Brasil]({{ '/tag.html?tag=brasil' | relative_url }}) | [Língua Inglesa]({{ '/tag.html?tag=ingles' | relative_url }}) | [Acessibilidade]({{ '/tag.html?tag=acessibilidade' | relative_url }}) |
 
-### 🆕 Adições Recentes ao Acervo
-*Confira os últimos registros mapeados na nossa base de dados:*
+## 🆕 Adições Recentes ao Acervo
+Confira os últimos registros mapeados na nossa base de dados:
 
-<div class="ultimos-posts">
-  {% for post in site.posts limit:5 %}
-    <article style="margin-bottom: 20px;">
-      <h4 style="margin-bottom: 5px;">
-        <a href="{{ post.url | relative_url }}" style="color: #1A365D; text-decoration: none;">
-          {{ post.title }}
-        </a>
-      </h4>
-      <small><strong>Tags:</strong> {{ post.tags | join: ", " }}</small><br>
-      <p style="font-size: 0.9em; margin-top: 5px;">{{ post.summary }}</p>
-    </article>
-  {% endfor %}
-</div>
+{% for post in site.posts limit:5 %}
+### <a href="{{ post.url }}">{{ post.title }}</a>
+**Tags:** {{ post.tags | join: ", " }}
 
-<br>
+{% if post.resumo_original %}
+{{ post.resumo_original | truncatewords: 30 }}
+{% else %}
+*Sem resumo disponível.*
+{% endif %}
 
+---
+{% endfor %}
+
+[Ver todos os registros →](/arquivo)
 ---
