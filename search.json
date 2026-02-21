@@ -1,13 +1,14 @@
 ---
+layout: none
 ---
 [
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "summary"  : "{{ post.summary | escape }}"
-    }
-    {% unless forloop.last %},{% endunless %}
+      "resumo"   : "{{ post.resumo_original | strip_html | strip_newlines | escape | truncatewords: 20 }}"
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
