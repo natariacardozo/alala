@@ -64,7 +64,7 @@ Em defesa da identidade, da ética e da soberania científica latino-americana.
 {% for post in site.posts limit:5 %}
 #### [{{ post.title | escape }}]({{ post.url | relative_url }})
 <div class="tag-container">
-  **Tags:** {{ post.tags | join: ", " }}
+  <b>Tags:</b> {{ post.tags | join: ", " }}
 </div>
 {{ post.resumo_original | strip_html | truncatewords: 30 }}
 
