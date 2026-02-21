@@ -39,7 +39,7 @@ title: "ALALA - Início"
 {% for post in site.posts limit:5 %}
 #### [{{ post.title }}]({{ post.url }})
 <div class="tag-container">
-  **Tags:** {{ post.tags | join: ", " }}
+  ***Tags:*** {{ post.tags | join: ", " }}
 </div>
 {{ post.resumo_original | strip_html | truncatewords: 25 }}
 
