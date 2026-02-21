@@ -7,38 +7,25 @@ title: Home
 
 ---
 <style>
-  /* Ajuste para fonte acadêmica e discreta */
-  body { font-size: 15px; line-height: 1.6; color: #333; }
-  h2 { font-size: 1.3em !important; font-weight: bold; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-  h4 { font-size: 1.1em !important; margin-bottom: 5px; color: #0056b3; }
-  .tag-container { font-size: 12px; color: #666; margin-bottom: 10px; }
-  .resumo-preview { font-size: 14px; color: #444; }
-  table { width: 100%; font-size: 14px; margin-bottom: 30px; }
+  h2 { font-size: 1.3em !important; border-bottom: 1px solid #eee; }
+  h4 { font-size: 1.1em !important; margin-bottom: 2px; }
+  .tags-home { font-size: 12px; color: #666; margin-bottom: 10px; }
+  table { font-size: 14px; width: 100%; }
 </style>
-
-## 🔍 Navegação por Eixos Temáticos
 
 | **Por Território** | **Por Idioma** | **Por Categoria** |
 | :--- | :--- | :--- |
-| [Chile](/territorio-chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
-| [Colômbia](/territorio-colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
-| [Brasil](/territorio-brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
+| [Chile](/territorio-chile) | [Espanhol](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
+| [Colômbia](/territorio-colombia) | [Português](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
+| [Brasil](/territorio-brasil) | [Inglês](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
 
 ---
 
-## 🆕 Adições Recentes ao Acervo
-*Últimos registros mapeados na nossa base de dados:*
-
+## 🆕 Adições Recentes
 {% for post in site.posts limit:10 %}
 #### [{{ post.title }}]({{ post.url }})
-<div class="tag-container">
-  **Tags:** {% if post.tags %}{{ post.tags | join: ", " }}{% else %}*(Sem tags vinculadas)*{% endif %}
-</div>
-<div class="resumo-preview">
-  {{ post.resumo_original | strip_html | truncatewords: 30 }}
-</div>
+<div class="tags-home">**Tags:** {{ post.tags | join: ", " }}</div>
+{{ post.content | strip_html | truncatewords: 30 }}
 
-
+---
 {% endfor %}
-
-[Ver todos os registros →](/arquivo)
