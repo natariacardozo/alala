@@ -50,7 +50,7 @@ permalink: /pais/colombia
     });
 
     if (encontrados === 0) {
-      titleEl.innerText = "Nenhum registro encontrado para: colombia";
+      titleEl.innerText = "Nenhum registro encontrado para: Colômbia";
     }
   })();
 </script>
