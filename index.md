@@ -36,8 +36,8 @@ Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 ### 🆕 Adições Recentes ao Acervo
 Confira os últimos registros mapeados na nossa base de dados:
 
-{% for post in site.posts limit:5 %}
-**[{{ post.title }}]**({{ post.url }})
+{% for post in site.posts limit:10 %}
+**{{ post.title }}**({{ post.url }})
 <div class="tag-box">**Tags:** {{ post.tags | join: ", " }}</div>
 
 {{ post.resumo_original | strip_html | truncatewords: 30 }}
@@ -45,5 +45,5 @@ Confira os últimos registros mapeados na nossa base de dados:
 ---
 {% endfor %}
 
-[Ver todos os registros →](/arquivo)
+### [Ver todos os registros →](/arquivo)
 ---
