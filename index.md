@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-> O ALALA é um esforço de curadoria para que as avaliações de línguas na América Latina não sejam apenas dados, mas rastros de cultura e identidade.
+> Em defesa da identidade, da ética e da soberania científica latino-americana.
 
 <div class="busca-alala" style="margin: 30px 0 20px 0;">
   <input type="text" id="search-input" placeholder="Pesquisar por país, língua ou exame..." style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid #ccc; box-sizing: border-box;">
