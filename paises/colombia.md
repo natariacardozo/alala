@@ -18,7 +18,7 @@ permalink: /pais/colombia
     <div class="post-item" data-tags="{{ post.tags | join: ',' | downcase }}">
       <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
       <div class="tag-meta">
-        **Tags:** {{ post.tags | join: ", " }}
+        <b>Tags:</b> {{ post.tags | join: ", " }}
       </div>
       <div class="resumo-original" style="font-size: 14px;">
         {{ post.resumo_original }}
