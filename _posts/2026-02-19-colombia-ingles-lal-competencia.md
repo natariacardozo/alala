@@ -4,6 +4,8 @@ title: "Un llamado al desarrollo de la competencia en evaluación de idiomas a t
 summary: "Estudo sobre a formação docente em avaliação de línguas estrangeiras no contexto colombiano."
 tags: [Colômbia, Inglês, LAL, Formação de Professores, Competência em Avaliação]
 link_externo: "https://revistas.udistrital.edu.co/index.php/calj/article/view/8410"
+categoria: dskdoa
+subcategoria: aokfopadkfa
 ---
 
 Este é um registro do acervo **ALALA (Acervo Latino-Americano de Avaliação em Línguas)**. 
@@ -13,9 +15,4 @@ Para acessar o documento original ou o portal oficial da instituição responsá
 
 ---
 
-### ⚠️ Encontrou algum problema?
-Como este repositório mapeia links externos, é possível que alguns endereços sejam alterados pelas instituições de origem. 
-
-Se você encontrar um **link quebrado**, informações desatualizadas ou tiver dificuldades técnicas, por favor, entre em contato conosco para que possamos realizar a correção:
-
-📧 **[nataliacardozo.unb@gmail.com]** ou via [Contato]({{ '/contato.html' | relative_url }}).
+Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.
