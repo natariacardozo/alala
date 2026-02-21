@@ -2,7 +2,7 @@
 layout: default
 title: "ALALA - Início"
 ---
-> Em defesa da identidade, da ética e da soberania científica latino-americana. <
+<center>Em defesa da identidade, da ética e da soberania científica latino-americana.</center>
 ---
 <style>
   /* Fontes menores e acadêmicas */
