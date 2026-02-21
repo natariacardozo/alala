@@ -28,9 +28,9 @@ title: "ALALA - Início"
 
 | **Por Território** | **Por Idioma** | **Por Categoria** |
 | :--- | :--- | :--- |
-| [Chile](/territorio-chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/categoria-dea) |
-| [Colômbia](/territorio-colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/categoria-lal) |
-| [Brasil](/territorio-brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/categoria-acessibilidade) |
+| [Chile](/chile) | [Língua Espanhola](/idioma-espanhol) | [Instrumentos DEA](/dea) |
+| [Colômbia](/colombia) | [Língua Portuguesa](/idioma-portugues) | [Formação (LAL)](/lal) |
+| [Brasil](/brasil) | [Língua Inglesa](/idioma-ingles) | [Acessibilidade](/acessibilidade) |
 
 ---
 
