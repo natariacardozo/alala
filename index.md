@@ -37,14 +37,10 @@ Utilize os atalhos abaixo para explorar o acervo por categorias específicas:
 Confira os últimos registros mapeados na nossa base de dados:
 
 {% for post in site.posts limit:5 %}
-### <a href="{{ post.url }}">{{ post.title }}</a>
+### [{{ post.title }}]({{ post.url }})
 **Tags:** {{ post.tags | join: ", " }}
 
-{% if post.resumo_original %}
-{{ post.resumo_original | truncatewords: 30 }}
-{% else %}
-*Sem resumo disponível.*
-{% endif %}
+{{ post.resumo_original | strip_html | truncatewords: 30 }}
 
 ---
 {% endfor %}
