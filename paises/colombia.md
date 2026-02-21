@@ -7,7 +7,7 @@ permalink: /pais/colombia
 <style>
   h2 { font-size: 1.4em !important; border-bottom: 1px solid #eee; padding-bottom: 10px; }
   h4 { font-size: 1.1em !important; margin-bottom: 5px; color: #0056b3; }
-  .post-item { margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; }
+  .post-item { margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; display: none; }
   .tag-meta { font-size: 12px; color: #666; margin-bottom: 8px; }
 </style>
 
@@ -15,8 +15,8 @@ permalink: /pais/colombia
 
 <div id="posts-list">
   {% for post in site.posts %}
-    <div class="post-item" data-tags="{{ post.tags | join: ',' }}" style="display: none;">
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <div class="post-item" data-tags="{{ post.tags | join: ',' | downcase }}">
+      <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
       <div class="tag-meta">
         **Tags:** {{ post.tags | join: ", " }}
       </div>
@@ -25,28 +25,31 @@ permalink: /pais/colombia
       </div>
     </div>
   {% endfor %}
+  <p id="empty-msg" style="display: none; color: #666; font-style: italic;">Nenhum registro encontrado para este país.</p>
 </div>
 
 <script>
   (function() {
-    const tagAlvo = "colombia"; // Define o filtro para esta página
+    // Procura por "colômbia" ou "colombia" para não ter erro
+    const alvos = ["colômbia", "colombia"]; 
     const posts = document.querySelectorAll('.post-item');
-    const titleEl = document.getElementById('tag-title');
+    const emptyMsg = document.getElementById('empty-msg');
     let encontrados = 0;
 
     posts.forEach(post => {
-      const rawTags = post.getAttribute('data-tags') || "";
-      // Limpa espaços e padroniza para minúsculas para a comparação ser exata
-      const postTags = rawTags.split(',').map(t => t.trim().toLowerCase());
+      const postTags = post.getAttribute('data-tags') || "";
+      
+      // Verifica se o post tem a tag da Colômbia
+      const matches = alvos.some(tag => postTags.includes(tag));
 
-      if (postTags.includes(tagAlvo.toLowerCase())) {
+      if (matches) {
         post.style.display = 'block';
         encontrados++;
       }
     });
 
     if (encontrados === 0) {
-      titleEl.innerText = "Nenhum registro encontrado para: Colômbia";
+      emptyMsg.style.display = 'block';
     }
   })();
 </script>
