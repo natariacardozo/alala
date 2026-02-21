@@ -38,7 +38,7 @@ title: Home
   {{ post.resumo_original | strip_html | truncatewords: 30 }}
 </div>
 
----
+
 {% endfor %}
 
 [Ver todos os registros →](/arquivo)
