@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Un llamado al desarrollo de la competencia en evaluación de idiomas a través de los procesos formativos de profesores de inglés como lengua extranjera"
-autores: ["Leonardo Herrera"], [Diego Fernando Macías]
+autores: ["Leonardo Herrera"], ["Diego Fernando Macías"]
 resumo_original: "Estudo sobre a formação docente em avaliação de línguas estrangeiras no contexto colombiano."
 pais: "Colômbia"
 lingua_avaliada: "Inglês"
