@@ -42,7 +42,6 @@ Confira os últimos registros mapeados na nossa base de dados:
 
 {{ post.resumo_original | strip_html | truncatewords: 30 }}
 
----
 {% endfor %}
 
 ### [Ver todos os registros →](/arquivo)
