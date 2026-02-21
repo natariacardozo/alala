@@ -16,21 +16,29 @@ title: "Filtrar por Tag"
 </div>
 
 <script>
-  // Script simples para ler a tag da URL (ex: tag.html?tag=chile)
+  // Lê a tag da URL (ex: tag.html?tag=chile)
   const urlParams = new URLSearchParams(window.location.search);
-  const tag = urlParams.get('tag')?.toLowerCase();
+  const tag = urlParams.get('tag')?.toLowerCase().trim();
   const posts = document.querySelectorAll('.post-item');
   const titleEl = document.getElementById('tag-title');
 
   if (tag) {
+    // Ajusta o título da página para o nome da tag
     titleEl.innerText = `Resultados para: ${tag.charAt(0).toUpperCase() + tag.slice(1)}`;
+    
     posts.forEach(post => {
-      const postTags = post.getAttribute('data-tags').split(',');
+      // Pega as tags, transforma em minúsculas e remove espaços em branco de cada uma
+      const rawTags = post.getAttribute('data-tags') || "";
+      const postTags = rawTags.toLowerCase().split(',').map(t => t.trim());
+
       if (postTags.includes(tag)) {
         post.style.display = 'block';
+      } else {
+        post.style.display = 'none'; // Esconde o que não combina
       }
     });
   } else {
+    // Se não houver tag na URL, mostra tudo
     titleEl.innerText = "Todas as Categorias";
     posts.forEach(post => post.style.display = 'block');
   }
