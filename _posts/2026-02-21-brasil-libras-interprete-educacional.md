@@ -8,7 +8,7 @@ ano_publicacao: "2018"
 lingua_avaliada: "libras"
 categoria: "Avaliação de Competências e Populações Específicas"
 subcategoria: "Avaliação de Línguas de Sinais"
-tags: ["Brasil", "Libras", "Português", "Ensino Superior", "Intérprete Educacional", "Mediação de Avaliação", "Aluno Surdo", "Português como Segunda Língua"]
+tags: ["Brasil", "Libras", "Ensino Superior", "Intérprete Educacional", "Mediação de Avaliação", "Aluno Surdo", "Português como Segunda Língua"]
 link_externo: "https://www.aacademica.org/polyphnia.revista.de.educacion.inclusiva/23"
 ---
 
