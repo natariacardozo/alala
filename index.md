@@ -3,10 +3,6 @@ layout: default
 title: "ALALA - Início"
 ---
 
-Em defesa da identidade, da ética e da soberania científica latino-americana.
-
----
-
 <style>
   /* Estilo acadêmico, minimalista e sem cores berrantes */
   body { font-size: 14px; line-height: 1.6; color: #333; }
