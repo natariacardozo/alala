@@ -22,10 +22,20 @@ link_externo: "https://www.aacademica.org/polyphnia.revista.de.educacion.inclusi
 
 ---
 
+
+
 **Resumo:** {{ page.resumo_original }}
+
+
 
 ---
 
-Este é um registro do acervo ALALA (Acervo Latino-Americano de Avaliação em Línguas). Para acessar o documento original ou o portal oficial da instituição responsável, utilize o link abaixo:
 
-👉
+
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
+
+
+
+---
+
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
