@@ -8,7 +8,7 @@ ano_publicacao: "2024"
 lingua_avaliada: "libras"
 categoria: "Avaliação de Competências e Populações Específicas"
 subcategoria: "Avaliação de Línguas de Sinais"
-tags: ["Brasil", "Libras", "Educação Bilíngue de Surdos", "Avaliação de Línguas de Sinais", "Instrumentos de Avaliação", "Formação de Professores", "NarVaL-Libras/Prod"]
+tags: ["Brasil", "Libras", "Educação Bilíngue de Surdos", "Formação de Professores", "NarVaL-Libras/Prod"]
 link_externo: "https://online.unisc.br/seer/index.php/signo/article/view/19099"
 ---
 
