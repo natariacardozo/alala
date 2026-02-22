@@ -8,7 +8,7 @@ ano_publicacao: "2024"
 lingua_avaliada: "libras"
 categoria: "Avaliação de Competências e Populações Específicas"
 subcategoria: "Avaliação de Línguas de Sinais"
-tags: ["Brasil", "Libras", "Educação Especial", "Educação Bilíngue de Surdos"]
+tags: ["Brasil", "Libras", "Educação Especial", "Educação de Surdos"]
 link_externo: "https://online.unisc.br/seer/index.php/signo/article/view/19099"
 ---
 
