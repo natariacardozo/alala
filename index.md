@@ -56,7 +56,7 @@ Em defesa da identidade, da ética e da soberania científica latino-americana.
 | [Colômbia](/pais/colombia) | [Português](/idioma/portugues) | 
 | [Brasil](/pais/brasil) | [Inglês](/idioma/ingles) |
 | [Argentina](/pais/argentina) | [Libras](/idioma/libras) |
-| [Uruguai](/pais/uruguai) | [Português](/idioma/portugues) | 
+| [Uruguai](/pais/uruguai) | [Russo](/idioma/russo) | 
 
 
 ---
