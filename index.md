@@ -50,11 +50,14 @@ Em defesa da identidade, da ética e da soberania científica latino-americana.
   <ul id="results-container"></ul>
 </div>
 
-| **Por Território** | **Por Idioma** | **Por Categoria** |
+| **Por Território** | **Por Idioma** |
 | :--- | :--- | :--- |
-| [Chile](/pais/chile) | [Espanhol](/idioma/espanhol) | [Instrumentos DEA](/categoria/dea) |
-| [Colômbia](/pais/colombia) | [Português](/idioma/portugues) | [Formação (LAL)](/categoria/lal) |
-| [Brasil](/pais/brasil) | [Inglês](/idioma/ingles) | [Acessibilidade](/categoria/acessibilidade) |
+| [Chile](/pais/chile) | [Espanhol](/idioma/espanhol) | 
+| [Colômbia](/pais/colombia) | [Português](/idioma/portugues) | 
+| [Brasil](/pais/brasil) | [Inglês](/idioma/ingles) |
+| [Argentina](/pais/argentina) | [Libras](/idioma/libras) |
+| [Uruguai](/pais/uruguai) | [Português](/idioma/portugues) | 
+
 
 ---
 
