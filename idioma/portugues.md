@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Mapeamento por Idioma: Português"
+title: "Avaliação de Língua Portuguesa"
 permalink: /idioma/portugues
 ---
 
 <style>
-  h2 { font-size: 1.4em !important; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+ <h2 id="tag-title">Artigos sobre Avaliação de Língua Portuguesa</h2>
   h4 { font-size: 1.1em !important; margin-bottom: 5px; color: #0056b3; }
   .post-item { margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; display: none; }
   .tag-meta { font-size: 12px; color: #666; margin-bottom: 8px; }
