@@ -14,7 +14,7 @@ link_externo: "https://online.unisc.br/seer/index.php/signo/article/view/19099](
 
 # {{ page.title }}
 **Autores:** {{ page.autores | join: ", " }}  
-**País:** Brasil | **Língua:** Libras | **Ano de Publicação:** {{ page.ano_publicacao }}  
+**País:** Costa Rica | **Língua:** Inglês | **Ano de Publicação:** {{ page.ano_publicacao }}  
 **Categoria:** {{ page.categoria }}  
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
