@@ -5,13 +5,13 @@ permalink: /idioma/espanhol
 ---
 
 <style>
- <h2 id="tag-title">Artigos sobre Avaliação de Língua Espanhola</h2>
+  h2 { font-size: 1.4em !important; border-bottom: 1px solid #eee; padding-bottom: 10px; }
   h4 { font-size: 1.1em !important; margin-bottom: 5px; color: #0056b3; }
   .post-item { margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; display: none; }
   .tag-meta { font-size: 12px; color: #666; margin-bottom: 8px; }
 </style>
 
-<h2 id="tag-title">Documentos em Espanhol</h2>
+<h2 id="tag-title">Artigos sobre Avaliação de Língua Espanhola</h2>
 
 <div id="posts-list">
   {% for post in site.posts %}
