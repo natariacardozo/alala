@@ -53,6 +53,8 @@ title: "ALALA - Início"
 | [Brasil](/pais/brasil) | [Inglês](/idioma/ingles) |
 | [Argentina](/pais/argentina) | [Libras](/idioma/libras) |
 | [Uruguai](/pais/uruguai) | [Russo](/idioma/russo) | 
+| [Costa Rica](/pais/costa-rica) |
+| [Cuba](/pais/cuba) |
 
 
 ---
