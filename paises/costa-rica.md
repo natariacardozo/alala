@@ -29,7 +29,7 @@ permalink: /pais/costa-rica
 
 <script>
   (function() {
-    const tagAlvo = "costa-rica"; // Define o filtro para esta página
+    const tagAlvo = "costa rica"; // Define o filtro para esta página
     const posts = document.querySelectorAll('.post-item');
     const titleEl = document.getElementById('tag-title');
     let encontrados = 0;
