@@ -70,6 +70,12 @@ title: "ALALA - Início"
 ---
 {% endfor %}
 
+<div style="text-align: right; margin-top: 15px; margin-bottom: 40px;">
+  <a href="{{ '/arquivo/' | relative_url }}" style="font-size: 15px; font-weight: bold; color: #0056b3; text-decoration: none;">
+    📂 Veja o arquivo completo &rarr;
+  </a>
+</div>
+
 <script>
   (function() {
     let searchData = [];
