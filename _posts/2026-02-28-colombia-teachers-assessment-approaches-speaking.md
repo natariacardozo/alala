@@ -22,14 +22,6 @@ link_externo: "https://www.researchgate.net/publication/348584306_Teachers'_Asse
 
 ---
 
-### Avaliação Somativa vs. Formativa na Produção Oral
-
-O estudo destaca o desafio de transitar de uma cultura de "testagem" para uma cultura de "aprendizagem":
-* **Tendência Somativa:** Foco no produto final, atribuição de notas e cumprimento de exigências institucionais.
-* **Necessidade de Letramento:** A urgência de capacitar professores para desenhar avaliações que retroalimentem o processo de aprendizagem do aluno.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
