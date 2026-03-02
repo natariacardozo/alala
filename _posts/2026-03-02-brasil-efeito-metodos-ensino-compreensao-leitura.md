@@ -22,15 +22,6 @@ link_externo: "https://www.scielo.br/j/rbla/a/bVgr9JqdVnLnY4Ckm9yCB6Q/?lang=pt"
 
 ---
 
-### Metodologia e Níveis de Compreensão
-
-O estudo destaca como o ambiente de aprendizagem molda o processamento textual:
-* **Abordagem Comunicativa:** Resultou em interpretações mais profundas e inferenciais do texto em língua estrangeira.
-* **Abordagem Áudiolingual:** Tendência a uma compreensão mais literal ou fragmentada, baseada no reconhecimento de padrões gramaticais.
-* **Variável de Controle:** O desempenho em português era similar em ambos os grupos, isolando o método de ensino de LE como a variável determinante.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
