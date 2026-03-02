@@ -22,16 +22,6 @@ link_externo: "https://zenodo.org/records/10693802"
 
 ---
 
-### O Modelo CLIL na Produção Oral
-
-O estudo demonstra como a integração de conteúdo e língua impacta quatro pilares da comunicação:
-1. Vocabulário técnico e acadêmico.
-2. Gestão de tempo durante a fala.
-3. Fluência interacional.
-4. Confiança do falante.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
