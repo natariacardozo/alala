@@ -22,15 +22,6 @@ link_externo: "https://doi.org/10.15443/RL3101"
 
 ---
 
-### Panorama da Avaliação Pragmática Clínica
-
-A revisão identifica lacunas e tendências no cenário hispanohablante:
-* **Concepção de Pragmática:** Entendida como uma perspectiva integradora que inclui análise do discurso, conversação e comunicação não verbal.
-* **Metodologia Dominante:** Uso de pautas de cotejo (checklists) interativas.
-* **Desafio Psicométrico:** Escassez de dados sobre validade e confiabilidade dos instrumentos atuais, dificultando diagnósticos precisos.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
