@@ -22,15 +22,6 @@ link_externo: "https://enfoqueseducacionales.uchile.cl/index.php/REE/article/vie
 
 ---
 
-### Diagnóstico Precoce e Contextualizado
-
-A validação da **Prueba Eureka** representa um avanço na soberania avaliativa da região:
-* **Foco:** Diagnóstico de DEA em Linguagem e Matemática.
-* **Público:** 1º ao 8º ano da Educação Básica (Ensino Fundamental).
-* **Impacto:** Permite intervenções pedagógicas personalizadas baseadas em evidências locais, superando a dependência de instrumentos estrangeiros.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
