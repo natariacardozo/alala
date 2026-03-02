@@ -22,15 +22,6 @@ link_externo: "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-093
 
 ---
 
-### Idade Auditiva vs. Idade Cronológica na Avaliação
-
-O estudo demonstra que avaliar crianças com hipoacusia exige métricas que respeitem seu histórico de acesso ao som:
-* **Problema:** O uso da idade cronológica gera o "efeito piso", subestimando as habilidades linguísticas da criança.
-* **Solução:** A idade auditiva (tempo desde a protetização ou implante) mostrou-se um preditor muito mais fiel e alinhado à **idade equivalente** do vocabulário.
-* **Instrumento utilizado:** Teste de vocabulário receptivo Peabody.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
