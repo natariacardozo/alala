@@ -22,16 +22,6 @@ link_externo: "https://revistas.udistrital.edu.co/index.php/enunc/article/view/2
 
 ---
 
-### Tendências e Contrasentidos na Avaliação Oral
-
-O artigo identifica quatro grandes eixos que resumem as pesquisas das últimas duas décadas:
-1. Propostas de instrumentos técnicos.
-2. Avaliação em contexto de Língua Estrangeira.
-3. Avaliação de gêneros discursivos específicos.
-4. Alternativas dialógicas no cotidiano da sala de aula.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
