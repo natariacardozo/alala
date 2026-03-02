@@ -22,15 +22,6 @@ link_externo: "https://periodicos.ufrn.br/odisseia/article/view/9983"
 
 ---
 
-### Avaliação e Inclusão na Perspectiva Vygotskyana
-
-O estudo destaca que a avaliação para alunos com deficiência múltipla deve:
-* Romper com a lógica da exclusão e do "não saber".
-* Focar no desenvolvimento das potencialidades (Zona de Desenvolvimento Proximal).
-* Valorizar o processo de mediação do professor de línguas.
-
-
-
 **Resumo:** {{ page.resumo_original }}
 
 ---
