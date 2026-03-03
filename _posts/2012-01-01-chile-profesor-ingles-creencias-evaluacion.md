@@ -22,11 +22,11 @@ link_externo: "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-
 
 ---
 
-**Resumen:** {{ page.resumo_original }}
+**Resumo:** {{ page.resumo_original }}
 
 ---
 
-🔗 [**Haga clic aquí para acceder al documento original**]({{ page.link_externo }})
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
 *Este registro integra el ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
