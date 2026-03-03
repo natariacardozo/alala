@@ -26,7 +26,7 @@ link_externo: "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-093
 
 ---
 
-🔗 [**Haga clic aquí para acceder al documento original**]({{ page.link_externo }})
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
 *Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
