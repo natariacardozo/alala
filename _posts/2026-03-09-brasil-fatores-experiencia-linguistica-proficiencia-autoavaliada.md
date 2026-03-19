@@ -20,13 +20,9 @@ link_externo: "https://revistaseletronicas.pucrs.br/letronica/article/view/26180
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
-*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas Adicionais.*
