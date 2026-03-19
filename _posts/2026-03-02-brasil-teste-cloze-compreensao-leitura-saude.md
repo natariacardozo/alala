@@ -20,11 +20,7 @@ link_externo: "https://periodicos.ufsc.br/index.php/workingpapers/article/view/1
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
