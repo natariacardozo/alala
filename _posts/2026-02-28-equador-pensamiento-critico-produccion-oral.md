@@ -20,13 +20,9 @@ link_externo: "https://revistapublicando.org/revista/index.php/crv/article/view/
 **Subcategoría:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
+**Resumo:** {{ page.resumo_original }}
 
-**Resumen:** {{ page.resumo_original }}
-
----
-
-🔗 [**Haz clic aquí para acceder al documento original**]({{ page.link_externo }})
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
 *Este registro integra el ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
