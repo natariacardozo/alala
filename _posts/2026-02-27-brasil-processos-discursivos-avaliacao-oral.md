@@ -20,11 +20,7 @@ link_externo: "https://revistas.iel.unicamp.br/index.php/sinteses/article/view/6
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
