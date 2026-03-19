@@ -15,18 +15,14 @@ link_externo: "https://infosur.unr.edu.ar/index.php/2020/article/view/97"
 # {{ page.title }}
 
 **Autora:** {{ page.autores | join: ", " }}  
-**País:** Argentina | **Lengua:** Español | **Año de Publicación:** {{ page.ano_publicacao }}  
-**Categoría:** {{ page.categoria }}  
-**Subcategoría:** {{ page.subcategoria }}  
+**País:** Argentina | **Lengua:** Español | **Ano de Publicação:** {{ page.ano_publicacao }}  
+**Categoria:** {{ page.categoria }}  
+**Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
+**Resumo:** {{ page.resumo_original }}
 
-**Resumen:** {{ page.resumo_original }}
-
----
-
-🔗 [**Haga clic aquí para acceder al documento original**]({{ page.link_externo }})
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
 *Este registro integra el ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
