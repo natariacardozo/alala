@@ -20,11 +20,7 @@ link_externo: "https://dialnet.unirioja.es/servlet/articulo?codigo=8456718"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
