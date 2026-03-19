@@ -20,11 +20,7 @@ link_externo: "http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
