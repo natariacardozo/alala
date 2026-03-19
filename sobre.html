@@ -3,36 +3,56 @@ layout: default
 ---
 
 <style>
-    .alala-container {
-        max-width: 800px;
-        margin: 0 auto;
-        line-height: 1.6;
-        color: #333;
-        font-family: sans-serif;
+    .alala-sobre-container {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 0 30px;
+        font-family: "Georgia", serif; 
+        color: #1a1a1a;
+        line-height: 1.8;
     }
-    .alala-container p {
-        margin-bottom: 1.5em;
+
+    .alala-sobre-container p {
+        margin-bottom: 1.5rem;
+        text-align: justify;
+        hyphens: auto; 
+    }
+
+    .alala-sobre-container b {
+        color: #004d40; 
+    }
+
+    .alala-lista-colaboracao {
+        margin: 2rem 0;
+        padding-left: 40px;
         text-align: justify;
     }
-    .alala-container b {
-        color: #d9534f; /* Um tom de destaque para o .lat */
+
+    .alala-lista-colaboracao li {
+        margin-bottom: 0.8rem;
     }
-    .alala-container ol {
-        margin-bottom: 1.5em;
-        padding-left: 20px;
+
+    .alala-mapeamento-link {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #e0e0e0;
+        font-style: italic;
+        text-align: center;
     }
-    .alala-container li {
-        margin-bottom: 0.5em;
+
+    .alala-mapeamento-link a {
+        color: #00796b;
+        text-decoration: none;
+        font-weight: bold;
     }
-    .alala-footer {
-        margin-top: 3em;
-        border-top: 1px solid #eee;
-        padding-top: 1em;
-        font-size: 0.9em;
+
+    .alala-mapeamento-link a:hover {
+        text-decoration: underline;
     }
 </style>
 
-<div class="alala-container">
+<div class="alala-sobre-container">
+
     <p>
         O Acervo Latino-Americano de Avaliação em Línguas Adicionais (ALALA) foi concebido não apenas como um instrumento de consulta, mas como uma ferramenta política, sociológica e pedagógica inserida no campo da Linguística Aplicada. Ao estruturar-se como um repositório digital de acesso aberto, o projeto assume a responsabilidade de combater a invisibilidade da produção científica do Sul Global.
     </p>
@@ -57,7 +77,7 @@ layout: default
         Este é, por natureza, um trabalho sem fim. A curadoria decolonial exige resgates contínuos e atualizações incessantes. Para que este acervo atue como inteligência coletiva, ele deve ultrapassar o mapeamento inicial (2000-2024). Por isso, convidamos a comunidade acadêmica a colaborar de duas formas:
     </p>
 
-    <ol>
+    <ol class="alala-lista-colaboracao">
         <li>Resgate de produções históricas (anteriores ao ano 2000).</li>
         <li>Atualização com pesquisas futuras (posteriores a 2024).</li>
     </ol>
@@ -66,9 +86,10 @@ layout: default
         Assim, assumimos o compromisso de resgatar o que foi esquecido e projetar o que pretendemos ser. O ALALA é um convite para que ocupemos o espaço com nossas vozes e saberes.
     </p>
 
-    <div class="alala-footer">
+    <div class="alala-mapeamento-link">
         <p>
-            <i>Para mais informações sobre os dados coletados, acesse a nossa aba de <a href="mapeamento.html">Mapeamento</a>.</i>
+            Para mais informações sobre os dados coletados, acesse a nossa aba de <a href="/mapeamento.html">Mapeamento</a>.
         </p>
     </div>
+
 </div>
