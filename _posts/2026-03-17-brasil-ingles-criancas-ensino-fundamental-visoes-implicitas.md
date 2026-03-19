@@ -30,3 +30,11 @@ link_externo: "https://www.scielo.br/j/rbla/a/YSqMj7ZF9p8j85JscwZchBt/?lang=pt"
 
 ---
 *Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+**Tags:** {{ page.tags | join: ", " }}
+
+**Resumo:** {{ page.resumo_original }}
+
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
+
+---
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas Adicionais.*
