@@ -20,11 +20,7 @@ link_externo: "https://revistas.pucsp.br/index.php/intercambio/article/view/5397
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
