@@ -20,13 +20,9 @@ link_externo: "https://doi.org/10.1590/01031813v62120238666877"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
-*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas Adicionais.*
