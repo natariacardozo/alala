@@ -20,13 +20,9 @@ link_externo: "https://revistas.uniandes.edu.co/index.php/vys/article/view/7633"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
-*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas Adicionais.*
