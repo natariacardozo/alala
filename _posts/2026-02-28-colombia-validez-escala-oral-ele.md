@@ -2,31 +2,27 @@
 layout: default
 title: "Validez y fiabilidad de una escala de evaluación oral en ELE"
 autores: ["Begoña Martín Alonso"]
-resumo_original: "La presente investigación se enmarca en el campo de la Lingüística Aplicada a la Enseñanza de Español Lengua Extranjera, en lo que respecta a la validez y fiabilidad de pruebas orales con fines de clasificación. La complejidad viene determinada, en primer lugar, por los numerosos desafíos a los que todavía se enfrenta la evaluación de la lengua oral, principalmente en el campo de los exámenes de clasificación en ELE. En segundo lugar, por la escasez de investigaciones que han analizado la validez de contenido de escalas orales y a los desafíos a los que se enfrentan. A la luz de estas problemáticas, este artículo examina la validez de contenido de la escala de evaluación de una prueba oral de clasificación en ELE combinando la técnica del juicio de expertos con las observaciones realizadas a las actuaciones lingüísticas de alumnos durante el pilotaje del examen. Además, se calcula la consistencia interna y la fiabilidad interevaluador mediante los coeficientes Alfa de Cronbach y Kappa de Cohen. Los análisis cualitativos y cuantitativos revelaron la pertinencia de la metodología propuesta y permitieron concluir que la escala de evaluación diseñada es válida y fiable."
-pais: "colombia"
+resumo_original: "A presente investigação insere-se no campo da Linguística Aplicada ao Ensino de Espanhol como Língua Estrangeira, no que diz respeito à validade e fiabilidade de testes orais para fins de classificação. A complexidade é determinada, em primeiro lugar, pelos inúmeros desafios que a avaliação da linguagem oral ainda enfrenta, principalmente no campo dos exames de classificação em ELE. Em segundo lugar, pela escassez de pesquisas que analisaram a validade de conteúdo de escalas orais. À luz destas problemáticas, este artigo examina a validade de conteúdo da escala de avaliação de um teste oral de classificação em ELE, combinando a técnica de julgamento de especialistas com observações realizadas nas atuações linguísticas dos alunos durante a pilotagem do exame. Além disso, calcula-se a consistência interna e a fiabilidade interavaliadores através dos coeficientes Alfa de Cronbach e Kappa de Cohen. As análises qualitativas e quantitativas revelaram a pertinência da metodologia proposta e permitiram concluir que a escala de avaliação concebida é válida e fiável."
+pais: "colômbia"
 ano_publicacao: "2018"
 lingua_avaliada: "espanhol"
 categoria: "Avaliação de Competências e Populações Específicas"
 subcategoria: "Avaliação da produção oral"
-tags: ["Colombia", "Español", "ELE", "Validez", "Fiabilidad", "Escala de Evaluación Oral", "Juicio de Expertos", "Pruebas de Clasificación"]
+tags: ["Colômbia", "Espanhol", "ELE", "Validade", "Fiabilidade", "Escala de Avaliação Oral", "Julgamento de Especialistas", "Testes de Classificação"]
 link_externo: "http://dx.doi.org/10.4067/S0718-48832018000200065"
 ---
 
 # {{ page.title }}
 
 **Autora:** {{ page.autores | join: ", " }}  
-**País:** Colombia | **Lengua:** Español | **Año de Publicación:** {{ page.ano_publicacao }}  
-**Categoría:** {{ page.categoria }}  
-**Subcategoría:** {{ page.subcategoria }}  
+**País:** Colômbia | **Língua:** Espanhol | **Ano de Publicação:** {{ page.ano_publicacao }}  
+**Categoria:** {{ page.categoria }}  
+**Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
+**Resumo:** {{ page.resumo_original }}
 
-**Resumen:** {{ page.resumo_original }}
-
----
-
-🔗 [**Haz clic aquí para acceder al documento original**]({{ page.link_externo }})
+🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
-*Este registro integra el ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
