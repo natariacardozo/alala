@@ -20,11 +20,7 @@ link_externo: "https://www.scielo.br/j/rbla/a/bVgr9JqdVnLnY4Ckm9yCB6Q/?lang=pt"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
