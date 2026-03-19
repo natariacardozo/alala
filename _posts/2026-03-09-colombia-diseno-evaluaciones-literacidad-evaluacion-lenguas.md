@@ -20,13 +20,10 @@ link_externo: "https://revistas.upn.edu.co/index.php/RF/article/view/16385"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
 ---
-*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas.*
+*Este registro integra o ALALA - Acervo Latino-Americano de Avaliação em Línguas Adicionais.*
+
