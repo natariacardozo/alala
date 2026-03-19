@@ -20,11 +20,7 @@ link_externo: "https://periodicos.ufrn.br/odisseia/article/view/9983"
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
