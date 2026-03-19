@@ -20,11 +20,7 @@ link_externo: "https://www.researchgate.net/publication/287697613_O_teste_cloze_
 **Subcategoria:** {{ page.subcategoria }}  
 **Tags:** {{ page.tags | join: ", " }}
 
----
-
 **Resumo:** {{ page.resumo_original }}
-
----
 
 🔗 [**Clique aqui para acessar o documento original**]({{ page.link_externo }})
 
